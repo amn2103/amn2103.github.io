@@ -2,7 +2,7 @@
 
 Welcome to my portfolio repository! This project showcases my work, skills, and personal projects as a Web Developer.
 
-> 🌐 Live Portfolio: [shivrajanand.github.io](https://github.com/amn2103)
+> 🌐 Live Portfolio: [https://github.com/amn2103](https://github.com/amn2103)
 
 ---
 
