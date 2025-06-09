@@ -1,38 +1,45 @@
-<!DOCTYPE html>
-<html lang="en" class="dark">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>404 - Page Not Found</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
+# 💼 Aman Kumar Portfolio
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-3MEXW2XNBM"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+Welcome to my portfolio repository! This project showcases my work, skills, and personal projects as a Web Developer.
 
-  gtag('config', 'G-3MEXW2XNBM');
-</script>
+> 🌐 Live Portfolio: [shivrajanand.github.io](https://github.com/amn2103)
 
-<body class="bg-blue-50 dark:bg-gray-900 text-blue-900 dark:text-white flex items-center justify-center min-h-screen px-4">
-  <div class="text-center max-w-xl">
-    <h1 class="text-6xl font-bold mb-4 text-blue-600 dark:text-blue-400">404 ERROR</h1>
-    <p class="text-xl mb-6">Page Not Found</p>
+---
 
-    <!-- Placeholder for image -->
-    <div class="mb-8">
-      <img src="assets/Images/404.png" alt="404 Illustration" class="mx-auto max-h-64 object-contain" />
-    </div>
+## 📌 About
 
-    <div class="space-y-4">
-      <a href="https://shivrajanand.github.io" class="block text-lg font-medium text-blue-700 dark:text-blue-300 hover:underline">🏠 Go to Home Page</a>
-      <a href="https://shivrajanand.github.io/pages/blog.html" class="block text-lg font-medium text-blue-700 dark:text-blue-300 hover:underline">📝 View My Project Blogs</a>
-      <a href="https://shivrajanand.github.io/pages/projects.html" class="block text-lg font-medium text-blue-700 dark:text-blue-300 hover:underline">💻 View My Projects</a>
-      <a href="https://shivrajanand.github.io#contact" class="block text-lg font-medium text-blue-700 dark:text-blue-300 hover:underline">🌐 Connect on Social Media</a>
-    </div>
-  </div>
-</body>
-</html>
+This portfolio is built using:
+- 🖥️ **Technologies**: HTML, CSS, JavaScript
+- 🎨 **Focus areas**: Responsive design, performance, accessibility
+- 🛠️ **Hosted on**: GitHub Pages
+
+Feel free to browse through the code to get a sense of my skills and how I structure my projects.
+
+---
+
+## 🚫 License & Usage
+
+**All rights reserved.**  
+This repository is provided for **showcase purposes only**. You may not copy, reuse, modify, or distribute any part of this code without **explicit permission** from the author.
+
+🔒 See the [LICENSE](./LICENSE) file for full details.
+
+For usage inquiries, please contact: [shivrajanand022002@gmail.com](mailto:aman@gmail.com)
+
+---
+
+## 📷 Preview
+
+![Portfolio Screenshot](preview.png)
+
+---
+
+## 📬 Contact
+
+- 📧 Email: [aman83605kumar@gmail.com](mailto:aman83605kumar@gmail.com)
+- 💼 LinkedIn: [https://www.linkedin.com/in/aman-kumar-0b16a4223/](https://www.linkedin.com/in/aman-kumar-0b16a4223/)
+- 📸 Instagram: [@amn_singh.01](https://www.instagram.com/amn_singh.01/)
+
+---
+
+**AMAN KUMAR**
