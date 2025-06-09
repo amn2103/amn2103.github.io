@@ -24,7 +24,7 @@ This repository is provided for **showcase purposes only**. You may not copy, re
 
 🔒 See the [LICENSE](./LICENSE) file for full details.
 
-For usage inquiries, please contact: [shivrajanand022002@gmail.com](mailto:aman@gmail.com)
+For usage inquiries, please contact: [aman83605kumar@gmail.com](mailto:aman83.605kumar@gmail.com)
 
 ---
 
