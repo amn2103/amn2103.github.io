@@ -18,7 +18,7 @@ body {
 
 .navbar ul {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 1.5rem;
   list-style: none;
 }
@@ -103,3 +103,4 @@ body {
 .btn:hover {
   opacity: 0.8;
 }
+
