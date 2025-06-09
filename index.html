@@ -24,4 +24,65 @@
       border-radius:50%; border:5px solid #00c6fb;
       object-fit:cover;
     }
-    .hero h1 { margin-top:1rem; font
+    .hero h1 { margin-top:1rem; font-size:2.5rem; color:#005bea; }
+    .hero p { font-size:1.1rem; color:#666; margin-top:0.5rem; }
+    .about-card {
+      max-width:800px; background:#fff; margin:2rem auto;
+      padding:2rem; border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.1);
+    }
+    .about-card h2 {
+      font-size:2rem; color:#005bea;
+      border-bottom:3px solid #00c6fb; display:inline-block;
+      margin-bottom:1rem;
+    }
+    .about-card p { font-size:1rem; line-height:1.6; color:#444; }
+    .buttons {
+      margin-top:2rem; display:flex; gap:1rem; flex-wrap:wrap;
+    }
+    .buttons a {
+      background:linear-gradient(90deg,#4f46e5,#3b82f6);
+      color:#fff; padding:0.8rem 1.5rem; border-radius:50px;
+      text-decoration:none; font-weight:600;
+      transition:background 0.3s;
+    }
+    .buttons a:hover { background:linear-gradient(90deg,#4338ca,#2563eb); }
+    @media(max-width:600px) {
+      nav ul { display:none; }
+      nav .toggle { display:inline-block; }
+      .hero img { width:120px; height:120px; }
+      .about-card { padding:1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div><strong>Aman Kumar</strong></div>
+    <div class="toggle">🌙</div>
+    <ul>
+      <li>About</li><li>Skills</li><li>Projects</li>
+      <li>Contact</li><li>Blogs</li><li>Certificates</li>
+      <li>Resume</li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <img src="https://via.placeholder.com/160" alt="Aman Kumar">
+    <h1>Aman Kumar</h1>
+    <p>Web Developer</p>
+    <p>Building clean UI and modern web experiences.</p>
+  </section>
+
+  <section class="about-card">
+    <h2>About Me</h2>
+    <p>Hello! I'm Aman Kumar, a passionate Web Developer who loves building beautiful and functional websites. I enjoy turning ideas into reality using HTML, CSS, and JavaScript. I’m currently learning React and enhancing my design skills.</p>
+    <div class="buttons">
+      <a href="#" download>📄 Resume</a>
+      <a href="mailto:aman83605kumar@gmail.com">📧 Connect with Me</a>
+      <a href="https://github.com/amn2103" target="_blank">🐙 GitHub</a>
+      <a href="https://www.linkedin.com/in/aman-kumar-0b16a4223/" target="_blank">🔗 LinkedIn</a>
+    </div>
+  </section>
+
+</body>
+</html>
