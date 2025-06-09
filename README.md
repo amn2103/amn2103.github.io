@@ -1,1 +1,38 @@
-# amn2103.github.io
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 - Page Not Found</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3MEXW2XNBM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3MEXW2XNBM');
+</script>
+
+<body class="bg-blue-50 dark:bg-gray-900 text-blue-900 dark:text-white flex items-center justify-center min-h-screen px-4">
+  <div class="text-center max-w-xl">
+    <h1 class="text-6xl font-bold mb-4 text-blue-600 dark:text-blue-400">404 ERROR</h1>
+    <p class="text-xl mb-6">Page Not Found</p>
+
+    <!-- Placeholder for image -->
+    <div class="mb-8">
+      <img src="assets/Images/404.png" alt="404 Illustration" class="mx-auto max-h-64 object-contain" />
+    </div>
+
+    <div class="space-y-4">
+      <a href="https://shivrajanand.github.io" class="block text-lg font-medium text-blue-700 dark:text-blue-300 hover:underline">🏠 Go to Home Page</a>
+      <a href="https://shivrajanand.github.io/pages/blog.html" class="block text-lg font-medium text-blue-700 dark:text-blue-300 hover:underline">📝 View My Project Blogs</a>
+      <a href="https://shivrajanand.github.io/pages/projects.html" class="block text-lg font-medium text-blue-700 dark:text-blue-300 hover:underline">💻 View My Projects</a>
+      <a href="https://shivrajanand.github.io#contact" class="block text-lg font-medium text-blue-700 dark:text-blue-300 hover:underline">🌐 Connect on Social Media</a>
+    </div>
+  </div>
+</body>
+</html>
