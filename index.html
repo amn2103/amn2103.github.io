@@ -2,85 +2,47 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Aman Kumar | Web Developer</title>
-  <style>
-    /* Basic Reset */
-    * { margin:0; padding:0; box-sizing:border-box; }
-    body { font-family: Arial, sans-serif; background:#f0f4f8; color:#333; }
-    nav {
-      background: linear-gradient(90deg,#005bea,#00c6fb);
-      padding:1rem 2rem;
-      display:flex; justify-content:space-between; align-items:center;
-      position:sticky; top:0; z-index:10; border-bottom:1px solid #ccc;
-    }
-    nav ul { list-style:none; display:flex; gap:1.5rem; }
-    nav ul li { color:#fff; cursor:pointer; }
-    nav ul li:hover { text-decoration:underline; }
-    .toggle { cursor:pointer; color:#fff; font-size:1.2rem; }
-    .hero { text-align:center; padding:2rem 1rem; }
-    .hero img {
-      width:160px; height:160px;
-      border-radius:50%; border:5px solid #00c6fb;
-      object-fit:cover;
-    }
-    .hero h1 { margin-top:1rem; font-size:2.5rem; color:#005bea; }
-    .hero p { font-size:1.1rem; color:#666; margin-top:0.5rem; }
-    .about-card {
-      max-width:800px; background:#fff; margin:2rem auto;
-      padding:2rem; border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.1);
-    }
-    .about-card h2 {
-      font-size:2rem; color:#005bea;
-      border-bottom:3px solid #00c6fb; display:inline-block;
-      margin-bottom:1rem;
-    }
-    .about-card p { font-size:1rem; line-height:1.6; color:#444; }
-    .buttons {
-      margin-top:2rem; display:flex; gap:1rem; flex-wrap:wrap;
-    }
-    .buttons a {
-      background:linear-gradient(90deg,#4f46e5,#3b82f6);
-      color:#fff; padding:0.8rem 1.5rem; border-radius:50px;
-      text-decoration:none; font-weight:600;
-      transition:background 0.3s;
-    }
-    .buttons a:hover { background:linear-gradient(90deg,#4338ca,#2563eb); }
-    @media(max-width:600px) {
-      nav ul { display:none; }
-      nav .toggle { display:inline-block; }
-      .hero img { width:120px; height:120px; }
-      .about-card { padding:1.5rem; }
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <nav>
-    <div><strong>Aman Kumar</strong></div>
-    <div class="toggle">🌙</div>
+  <!-- Navbar -->
+  <nav class="navbar">
     <ul>
-      <li>About</li><li>Skills</li><li>Projects</li>
-      <li>Contact</li><li>Blogs</li><li>Certificates</li>
-      <li>Resume</li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Skills</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Blogs</a></li>
+      <li><a href="#">Certificates</a></li>
+      <li><a href="#"><i class="fa fa-download"></i> Resume</a></li>
     </ul>
   </nav>
 
-  <section class="hero">
-    <img src="https://via.placeholder.com/160" alt="Aman Kumar">
+  <!-- Profile Section -->
+  <section class="profile">
+    <img src="https://avatars.githubusercontent.com/u/12345678?v=4" alt="Profile" />
     <h1>Aman Kumar</h1>
-    <p>Web Developer</p>
-    <p>Building clean UI and modern web experiences.</p>
+    <h3>Web Developer</h3>
+    <p>Exploring the space where creativity meets code.</p>
   </section>
 
-  <section class="about-card">
+  <!-- About Section -->
+  <section class="about">
     <h2>About Me</h2>
-    <p>Hello! I'm Aman Kumar, a passionate Web Developer who loves building beautiful and functional websites. I enjoy turning ideas into reality using HTML, CSS, and JavaScript. I’m currently learning React and enhancing my design skills.</p>
-    <div class="buttons">
-      <a href="#" download>📄 Resume</a>
-      <a href="mailto:aman83605kumar@gmail.com">📧 Connect with Me</a>
-      <a href="https://github.com/amn2103" target="_blank">🐙 GitHub</a>
-      <a href="https://www.linkedin.com/in/aman-kumar-0b16a4223/" target="_blank">🔗 LinkedIn</a>
+    <div class="about-box">
+      <p>
+        I'm <strong>Aman Kumar</strong>, a Computer Science graduate (2021–25). I love web development and building things that live on the internet. I enjoy creating responsive, accessible, and user-friendly websites. My interests lie in front-end technologies and UI/UX design. I'm constantly exploring new tools and frameworks to stay up-to-date in the fast-evolving tech landscape.
+      </p>
+      <div class="buttons">
+        <a href="#" class="btn">📥 Resume</a>
+        <a href="https://www.linkedin.com/in/aman-kumar-0b16a4223/" class="btn btn-outline" target="_blank">Connect with me</a>
+      </div>
     </div>
   </section>
 
