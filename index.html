@@ -11,55 +11,28 @@
       font-family: Arial, sans-serif;
       background: #f4f4f4;
       color: #333;
-      text-align: center;
     }
+
     header {
       background: #222;
       color: white;
-      padding: 50px 20px;
+      padding: 40px 20px;
+      text-align: center;
     }
+
     header h1 {
       margin: 0;
-      font-size: 3em;
+      font-size: 2.5em;
     }
+
     header p {
+      margin: 10px 0 0;
       font-size: 1.2em;
     }
-    section {
-      margin: 40px auto;
-      max-width: 800px;
-      padding: 0 20px;
-    }
-    .links a {
-      display: inline-block;
-      margin: 10px;
-      padding: 10px 20px;
-      text-decoration: none;
-      background: #007acc;
-      color: white;
-      border-radius: 5px;
-    }
-    .links a:hover {
-      background: #005fa3;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Aman Kumar</h1>
-    <p>Web Developer</p>
-  </header>
 
-  <section>
-    <h2>About Me</h2>
-    <p>Hello! I'm a passionate Web Developer who loves building beautiful and functional websites. I enjoy turning ideas into reality using HTML, CSS, and JavaScript.</p>
-  </section>
-
-  <section class="links">
-    <h2>Contact</h2>
-    <a href="mailto:aman83605kumar@gmail.com">Email</a>
-    <a href="https://www.linkedin.com/in/aman-kumar-0b16a4223/" target="_blank">LinkedIn</a>
-    <a href="https://github.com/amn2103" target="_blank">GitHub</a>
-  </section>
-</body>
-</html>
+    .main-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 40px 20px;
+      max-width: 1000px
